@@ -82,5 +82,16 @@ console.log("Atividade9")
 console.log("5" + 2);
 console.log(true + 1);
 console.log(false + 10);
-/*Os resultados mostrados são os resultados das contas */
-}
+/*O primeiro resultado e da conta,o segundo e a junção dos numeros
+,o terceiro o true vale 1,assim somando mais 1,o false vale 0,sendo assim somando o */
+} 
+
+console.log()
+//Atividade 10//
+console.log("Atividade10")
+let x = 5;
+let y = 10;
+let z = (x++ * --y) / 2 + (y % 3);
+console.log(z);
+/*O valor de z sera o resultado da conta,o ++ adicona 1 a variavel na proxima vez que ela for chamada,e o -- tira, 
+ o * representa a multiplicação, / representa a divisão, o + a soma, e o % representa o resto da divisão*/
